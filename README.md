@@ -1,2 +1,2 @@
 # docs_prostore_archive
-Archive documentation
+Prostore archive documentation
