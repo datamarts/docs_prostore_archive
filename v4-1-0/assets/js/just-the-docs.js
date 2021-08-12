@@ -53,7 +53,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', 'https://arenadata.github.io/docs_prostore/assets/js/search-data.json', true);
+  request.open('GET', 'https://arenadata.github.io/docs_prostore_archive/v4-1-0/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {

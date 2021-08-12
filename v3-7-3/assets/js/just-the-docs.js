@@ -53,7 +53,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', 'https://vvinnikov.github.io/docs_prostore_fork/assets/js/search-data.json', true);
+  request.open('GET', 'https://arenadata.github.io/docs_prostore_archive/v3-7-3/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
@@ -431,7 +431,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', 'https://vvinnikov.github.io/docs_prostore_fork/assets/css/just-the-docs-' + theme + '.css');
+  cssFile.setAttribute('href', 'https://arenadata.github.io/docs_prostore/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
